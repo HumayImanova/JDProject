@@ -10,6 +10,7 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+
 body{
     width: 100%;
     margin: auto;
@@ -18,6 +19,12 @@ body{
     line-height: 1.6;
     z-index: 99;
     
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 3;
 }
 
 .menu{
@@ -61,10 +68,12 @@ body{
     font-weight: 700;
     margin: 0%;
     padding: 0%;
+    
 }
 
 .book-a-table{
     height: 40px;
+    width: 140px;
     text-decoration: none;
     color: #e0e3c4;
     background-color: #b5aa7d;
@@ -74,7 +83,15 @@ body{
     font-weight: 700;
     letter-spacing: .05rem;
     padding: 10px 15px;
+    border-color:  #988e68;
 }
+
+.book-a-table:hover{
+background-color: #b5aa7d;
+border-color:  #988e68;
+transition: 1s all ease-in-out;
+}
+
 
 .text-primary {
     color: #b5aa7d !important;
@@ -123,5 +140,38 @@ h1{
     font-weight: 700;
     color: #e0e3c4;
 
+}
+
+.section-chooseus{
+    background-color: #d8dbb3;
+    position: relative;
+    padding: 100px 0px; 
+}
+
+.subtitle {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .1rem;
+}
+
+.service {
+    padding: 30px;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 0;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+.service .caption {
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: .2rem;
+    color: #b5aa7d;
 }
 
