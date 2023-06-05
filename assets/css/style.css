@@ -10,6 +10,10 @@
     font-family: 'Roboto', sans-serif !important;
 }
 
+ul{
+    list-style: none;
+}
+
 
 body{
     width: 100%;
@@ -173,4 +177,73 @@ h1{
     font-weight: 900;
     letter-spacing: .2rem;
     color: #b5aa7d;
+}
+
+.sig-content-container {
+    position: relative;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.sig-content {
+    width: 100%;
+    background: #FFFFFF;
+    border: solid 2px #b49383;
+    box-shadow: 0px 45px 70px rgba(0,0,0,0.24);
+    padding-top: 65px;
+    padding-left: 47px;
+    padding-bottom: 69px;
+    padding-right: 75px;
+}
+
+.page-subtitle {
+    font-size: 36px;
+    color: #b49383;
+    line-height: 0.75;
+}
+
+.sig{
+background-color: beige;
+}
+
+.sig-title {
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+.sig-title h1 {
+    font-size: 48px;
+}
+
+.sig-name {
+    font-size: 24px;
+    color: #232323;
+    padding-left: 9px;
+    margin-top: 1px;
+}
+
+.sig-price {
+    font-size: 24px;
+    color: #232323;
+}
+
+.sig-content-list {
+    margin-top: 4px;
+    margin-left: 9px;
+}
+
+.sig-content-list ul li {
+    font-size: 16px;
+    color: #636363;
+}
+
+.sig-content-list ul li:not(:last-child)::after {
+    display: inline-block;
+    content: '/';
+    font-size: 16px;
+    color: #636363;
+    margin-left: 5px;
+    margin-right: 5px;
 }
