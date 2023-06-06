@@ -14,6 +14,10 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 body{
     width: 100%;
@@ -217,35 +221,39 @@ h1{
     background: #FFFFFF;
     padding-top: 102px;
     padding-bottom: 102px;
-    padding-left: 300px;
+    padding-left: 220px;
 }
 
 
 
 .sig-title {
     margin-top: 6px;
-    padding-left: 5px;
+    
 }
 
-.sig-title h1 {
+.sig-title {
     font-size: 48px;
+    color: #b5aa7d !important;
 }
 
 .sig-name {
     font-size: 24px;
     color: #232323;
-    padding-left: 9px;
     margin-top: 1px;
 }
 
 .sig-price {
     font-size: 24px;
-    color: #232323;
+    color: #636363;
 }
 
 .sig-content-list {
     margin-top: 4px;
-    margin-left: 9px;
+    padding-left: 0%;
+}
+
+.sig-content-list ul{
+    padding-left: 0%;
 }
 
 .sig-content-list ul li {
@@ -266,7 +274,7 @@ h1{
     height: 40px;
     width: 140px;
     text-decoration: none;
-    color: #e0e3c4;
+    color: #e0e3c4 !important;
     background-color: #b5aa7d;
     border-radius: 30px;
     font-size: 11px;
@@ -286,7 +294,7 @@ h1{
 
 .sig-image {
     width: 600px;
-    height: 425px;
+    height: 455px;
 }  
 
 
