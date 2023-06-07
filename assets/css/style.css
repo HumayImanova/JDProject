@@ -308,3 +308,17 @@ h1{
         background-size: cover;
         background-position: center center;
  }
+
+ .chef-img{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    padding: 40px 0;
+}
+
+
+.quotes-section{
+        position: absolute;
+        width: 100%;
+
+}
