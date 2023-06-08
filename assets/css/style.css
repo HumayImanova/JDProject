@@ -183,18 +183,13 @@ h1{
     color: #b5aa7d;
 }
 
+
 .sig-content-container {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    /* -webkit-transform: translateY(-50%); */
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 100%;
-    z-index: 1;
+    width: 50%;
+    transform: translate(30%,7%);
+    z-index: 9;
 }
+
 
 .sig-content {
     width: 100%;
@@ -216,20 +211,16 @@ h1{
 }
 
 .sig{
-    position: absolute;
     width: 100%;
     background: #FFFFFF;
-    padding-top: 102px;
-    padding-bottom: 102px;
-    padding-left: 220px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
 }
 
 
 
-.sig-title {
-    margin-top: 6px;
-    
-}
+
 
 .sig-title {
     font-size: 48px;
@@ -239,7 +230,6 @@ h1{
 .sig-name {
     font-size: 24px;
     color: #232323;
-    margin-top: 1px;
 }
 
 .sig-price {
@@ -247,14 +237,8 @@ h1{
     color: #636363;
 }
 
-.sig-content-list {
-    margin-top: 4px;
-    padding-left: 0%;
-}
 
-.sig-content-list ul{
-    padding-left: 0%;
-}
+
 
 .sig-content-list ul li {
     font-size: 16px;
@@ -293,15 +277,12 @@ h1{
 
 
 .sig-image {
-    width: 600px;
-    height: 455px;
+    width: 100%;
+    height: 100%;
 }  
 
 
  .sig-image img{ 
-        position: relative;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         background-repeat: no-repeat;
@@ -309,16 +290,40 @@ h1{
         background-position: center center;
  }
 
- .chef-img{
-    position: relative;
-    width: 80%;
-    height: 80%;
-    padding: 40px 0;
-}
 
 
-.quotes-section{
-        position: absolute;
+@media (max-width:992px) {
+    .sig {
+        flex-direction: column;
+    }
+
+    .sig-content-container {
         width: 100%;
-
+        transform: translate(0%,0%);
+        margin-bottom: 20px;
+    }
 }
+
+.chef-quotes{
+    width: 100%;
+    max-height: 700px;
+    background-color:#d8dbb3 ;
+    padding: 50px 0;
+}
+
+.quotes-image {
+    width: 100%;
+    height: 100%;
+}  
+
+
+ .quotes-image img{ 
+        width: 100%;
+        height: 100%;
+        padding-right: 40px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+ }
+
+ 
